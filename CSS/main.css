@@ -1,0 +1,111 @@
+body {
+  width: 375px;
+  margin: 0;
+  font-family: "Poppins";
+}
+
+h1 {
+  font-size: 1.3em;
+}
+
+li {
+  list-style: none;
+}
+
+.hero {
+  width: 375px;
+  height: 650px;
+  background: #e0e8ff;
+  display: block;
+}
+
+.container {
+  width: 85%;
+  background: white;
+  margin: -10em 0 0 1.7em;
+  padding-bottom: 1em;
+  border-radius: 1.5em;
+}
+
+.container .ill {
+  width: 319px;
+  border-top-left-radius: 1.5em;
+  border-top-right-radius: 1.5em;
+}
+
+.container .TopText {
+  text-align: center;
+  display: inline-block;
+  margin-top: 1em;
+  margin-left: 1.5em;
+  width: 85%;
+}
+
+.container .TopText .properties {
+  color: #7280a7;
+  font-size: 16px;
+  width: 100%;
+}
+
+.container .CallToAction {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  text-align: center;
+  margin-top: 1.1em;
+}
+
+.container .CallToAction .musicIcon {
+  margin: 0;
+  padding-right: 1.1em;
+}
+
+.container .CallToAction .plan {
+  font-weight: bold;
+  font-size: 90%;
+  margin: 0;
+}
+
+.container .CallToAction .price {
+  margin-top: 0.3em;
+  color: #7280a7;
+  font-size: 85%;
+}
+
+.container .CallToAction .change {
+  text-align: center;
+  padding-right: 1.5em;
+}
+
+.container .CallToAction .changeText {
+  color: #3829e0;
+  font-size: 85%;
+  font-weight: bold;
+}
+
+.container .buttons {
+  text-align: center;
+  padding-right: 2.5em;
+}
+
+.container .buttons .proceedText {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.container .buttons .proceed {
+  background: #3829e0;
+  border-radius: 0.5em;
+  margin: 0;
+  padding: 1em;
+}
+
+.container .buttons .cancelText {
+  text-decoration: none;
+  color: #7280a7;
+}
+/*# sourceMappingURL=main.css.map */
